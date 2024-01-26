@@ -12,3 +12,4 @@ myquad <- function(x){
 }
 # code -> insert roxgen skeleton
 # build -> install
+# build -> check
