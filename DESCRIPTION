@@ -9,3 +9,5 @@ License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.3.1
+URL: https://github.com/deggerfire/MATH4753NATH24
+BugReports: https://github.com/deggerfire/MATH4753NATH24/issues
