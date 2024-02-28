@@ -9,6 +9,8 @@
 #' @examples
 #' mysample(5)
 mysample <- function(n, iter=10,time=0.5){
+  barplot <- NULL
+  rainbow <- NULL
   for( i in 1:iter){
     #make a sample
     s=sample(1:10,n,replace=TRUE)

@@ -12,6 +12,10 @@
 #'l=rep(RL,freq)
 #'pareto(l)
 pareto <- function(x, mn = "Pareto barplot", ...) {
+  barplot <- NULL
+  axis <- NULL
+  segments <- NULL
+  title <- NULL
   x.tab = table(x)
   xx.tab = sort(x.tab, decreasing = TRUE, index.return = FALSE)
   cumsum(as.vector(xx.tab)) -> cs
