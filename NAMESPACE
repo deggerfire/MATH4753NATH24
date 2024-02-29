@@ -3,6 +3,7 @@
 export(RMTSS)
 export(mybin)
 export(myhyper)
+export(myncurve)
 export(myquad)
 export(mysample)
 export(pareto)
