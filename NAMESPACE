@@ -2,6 +2,7 @@
 
 export(RMTSS)
 export(mybin)
+export(mycltp)
 export(myhyper)
 export(myncurve)
 export(myquad)
