@@ -10,13 +10,32 @@
 #'
 #' @return A list with the details the of experiment
 #' @export
+#' @import ggplot2
+#' @import gridExtra
 #'
 #' @examples
 #' ntickets(N=400,gamma = 0.02, p = 0.95)
 ntickets <- function(N,gamma,p){
   # Import needed libraries
-  library(ggplot2)    # Plots
-  library(gridExtra)  # Allows for layout functionality with ggplot
+  #import::here(ggplot, .from = ggplot2)
+  #requireNamespace(gridExtra)
+
+  # Gaslight check
+  aes          <- NULL
+  element_text <- NULL
+  geom_hline   <- NULL
+  geom_line    <- NULL
+  geom_point   <- NULL
+  geom_vline   <- NULL
+  ggplot       <- NULL
+  ggtitle      <- NULL
+  grid.arrange <- NULL
+  optimize     <- NULL
+  pbinom       <- NULL
+  pnorm        <- NULL
+  theme        <- NULL
+  xlab         <- NULL
+  ylab         <- NULL
 
   # Make vector list for the range of values to check, going 10% past N
   # A better end point could be when both D&N are equal to 1
