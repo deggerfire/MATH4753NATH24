@@ -1,6 +1,6 @@
 #' Fire damage
 #'
-#' A data set collected concerning home damage from fire
+#' A data set collected concerning home damage from fire and the distance from the nearest station
 #'
 #' @format A data frame with 15 rows and 2 variables:
 #' \describe{

@@ -1,0 +1,80 @@
+---
+title: "vignette for submittion"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{vignette for submittion}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(MATH4753NATH24)
+```
+
+# Intro
+
+This is my package for MATH 2753 and it has a bunch of random functions from the labs throughout the semester.
+
+# binFunc
+```{r}
+mybin(iter=1000,n=18, p=0.3)
+```
+
+Runs a binomial experiment
+
+# myboot2
+```{r}
+sam=rnorm(25,mean=25,sd=10)
+myboot2(sam)
+```
+
+Runs bootstrap on a set of data
+
+# myncurve
+```{r}
+myncurve()
+```
+
+Shows the lower prob of a normal graph
+
+# ntickets
+```{r}
+ntickets(N=400,gamma = 0.02, p = 0.95)
+```
+
+Gives data and graphs on overselling tickets on a plane without causing pain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
